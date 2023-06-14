@@ -18,7 +18,7 @@
         $phone=$usersDataJSON['phone'];
         $companyName=$usersDataJSON['company']['name'];
         
-        echo '<tr><td>'.$name.'</td><td>'.$username.'</td><td>'.$email.'</td><td>'.$addressStreet.', '.$addressZipCode.' '.$addressCity.'</td><td>'.$phone.'</td><td>'.$companyName.'</td><td>';
+        echo '<tr><td>'.$name.'</td><td>'.$username.'</td><td><a href="mailto:'.$email.'">'.$email.'</a></td><td>'.$addressStreet.', '.$addressZipCode.' '.$addressCity.'</td><td>'.$phone.'</td><td>'.$companyName.'</td><td>';
         
     }
     
